@@ -6,8 +6,10 @@ jobs:
   deploy-runner:
     runs-on: self-hosted
     steps:
+      - name: OFC
+        run: sudo chown -R $USER:$USER ${{ github.workspace }}
       - uses: actions/checkout@v2
-
+      
       - uses: iterative/setup-cml@v1
 
       - name: deploy
