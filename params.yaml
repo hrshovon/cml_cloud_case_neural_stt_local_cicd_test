@@ -1,4 +1,4 @@
-iter: 5
-content_weight: 0.025
+iter: 10
+content_weight: 0.005
 style_weight: 200.0
 tv_weight: 10.0
